@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <div rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="nav flex-row">
@@ -9,11 +9,13 @@
             <h3>Hello, World!</h3>
         </div>
         <div class="right flex-row">
-            <div class="nav_item cap" id="about">ABOUT</div>
-            <div class="nav_item cap" id="campaign">CAMPAIGN</div>
-            <div class="nav_item cap" id="authors">AUTHORS</div>
-            <div class="nav_item cap" id="social">SOCIAL</div>
-            <div class="nav_item cap" id="buy">BUY BOOK</div>
+            <ul> <!-- added empty links to div elements -->
+                <div><a href="#about" class="nav_item cap" id="about">ABOUT</a></div>
+                <div><a href="#campaign" class="nav_item cap" id="campaign">CAMPAIGN</a></div>
+                <div><a href="#authors" class="nav_item cap" id="authors">AUTHORS</a></div>
+                <div><a href="#social" class="nav_item cap" id="social">SOCIAL</a></div>
+                <div><a href="#buybook" class="nav_item cap" id="buy">BUY BOOK</a></div>
+            </ul>
         </div>
     </div>
 
@@ -22,7 +24,7 @@
         <div class="right flex-column">
             <h1>Hello, World!</h1>
             <h3 class="cap" id="author_names">DANIEL ANDREWS • BOAZ WILLIS</h3>
-            <h4>TEXT</h4>
+            <h4>"Hello, World!" is a coffee table book that captures the first magical moments of programming through beautiful artistic exposition.</h4>
             <div class="action flex-row">
                 <div class="buy_book cap"></div>
                 <div class="sample cap"></div>
@@ -41,8 +43,12 @@
         <div class="left flex-column">
             <h2 class="cap">ABOUT THE BOOK</h2>
             <div id="about_container">
-                <p>TEXT</p>
-                <div class="line"></div>
+                <p>The “Hello, World!” command is the first and most basic program that one executes when learning how to program. The crazy thing about it is that it’s written differently in every programming language, despite doing the same thing in all of them. Just about every programmer marks the beginning of their programming career with the "Hello, World!" command.
+
+                 Until now, programmers have had no way of showing off what they do or what they are interested in. This book is an open door to dialogue and discussion about the world of programming, its roots, and its depth. Whether you program as a hobby or a profession, "Hello, World!" is the perfect book for your coffee table. Each two-sheet spread reserves one page as a display of the "Hello, World!" command and the other for fun facts about the language, its history, and uses. 
+
+                Get ready to be the coolest programmer on the block!</p>
+                <div class="divne"></div>
                 <div id="video"></div>
             </div>
         </div>
@@ -51,38 +57,42 @@
                 <div class="bullets_title cap">FEATURES</div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">9"x9" hardcover bound</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">96 pages</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">40+ programming languages</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">Glossary</div>
+                </div>
+                <div class="bullet flex-row">
+                    <div class="bullet_img"></div>
+                    <div class="bullet_text">Printed on #135 gloss paper</div>
                 </div>
             </div>
             <div class="bullets flex-column">
                 <div class="bullets_title cap">WHAT'S INSIDE?</div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">A two-page spread for each language detaidivng the history and some interesting facts about the programming language, as well as the code for the "Hello, World!" command.</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">A timedivne which places all of the programming languages chronologically, so you can see how languages developed and built upon each other.</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">A glossary to help explain all the different terminology and features that make each language unique and useful.</div>
                 </div>
                 <div class="bullet flex-row">
                     <div class="bullet_img"></div>
-                    <div class="bullet_text">TEXT</div>
+                    <div class="bullet_text">QR codes for learning more about each language, and even how to program in it!</div>
                 </div>
             </div>
             <div class="buy_container flex-column">
