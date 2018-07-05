@@ -11,6 +11,8 @@
 	src: url(Poppins-Medium.ttf);
 }
 
+$color-dark-blue: #034752;
+
 
 .flex-row {
 	display: flex;
@@ -21,3 +23,25 @@
 	display: flex;
 	flex-direction: column;
 }
+
+.PrintBold {
+	font-family: "PrintBold";
+}
+
+.PoppinsBold {
+	font-family: "Poppins-Bold";
+}
+
+.PoppinsMedium {
+	font-family: "Poppins-Medium";
+}
+
+.cap {
+	text-transform: uppercase;
+}
+
+#fourth {
+	background-color: $color-dark-blue;
+}
+
+
