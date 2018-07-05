@@ -6,3 +6,18 @@
 	font-family: "PrintBold";
 	src: url(PrintBold.otf);
 }
+@font-face {
+	font-family: "Poppins-Medium";
+	src: url(Poppins-Medium.ttf);
+}
+
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
