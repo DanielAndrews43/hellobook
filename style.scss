@@ -87,7 +87,6 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
-
 .nav {
 	position: absolute;
 	width: 100%;
@@ -132,7 +131,65 @@ a:link, a:visited, a:hover, a:active {
 
 #first {
 	background-color: $color-light-gray;
-	height: 493px;
+	height: 580px;
+	padding-top: 96px;
+
+	.left {
+		margin-left: 60px;
+		width: 50%;
+		height: 100%;
+
+		#book_cover {
+			background-image: url('./book.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+
+			max-width: 705px;
+			min-width: 564px;
+
+			max-height: 675px;
+			min-height: 540px;
+
+			margin-left: -30px;
+		}
+	}
+	.right {
+		margin-right: 60px;
+		width: 50%;
+		justify-content: center;
+
+		h1 {
+			font-size: 48px;
+		}
+		h3 {
+			font-size: 18px;
+			letter-spacing: 1.8px;
+		}
+		h4 {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			font-size: 14px;
+			line-height: 22px;
+			max-width: 375px;
+		}
+
+		a {
+			font-size: 14px;
+
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 13px;
+			padding-bottom: 13px;
+		}
+
+		.buy_book {
+			background-color: $color-light-pink;
+		}
+		.sample {
+
+		}
+	}
 }
 
 #second {
