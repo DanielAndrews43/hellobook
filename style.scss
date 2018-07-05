@@ -12,6 +12,10 @@
 }
 
 $color-dark-blue: #034752;
+$color-light-pink: #DB5099;
+$color-dark-pink: #CF3E8D;
+$color-light-gray: #FFF7FB;
+$color-brown: #463A40;
 
 
 .flex-row {
@@ -40,8 +44,37 @@ $color-dark-blue: #034752;
 	text-transform: uppercase;
 }
 
+#first {
+	background-color: $color-light-gray;
+	height: 493px;
+}
+
+#second {
+	height: 63px;
+}
+
+#third {
+	background-color: $color-light-pink;
+	height: 1026px;
+}
+
 #fourth {
 	background-color: $color-dark-blue;
+	height: 185px;
+}
+
+#fifth {
+	height: 80px;
+}
+
+#sixth {
+	background-color: $color-light-gray;
+	height: 512px;
+}
+
+#footer {
+	background-color: $color-brown;
+	height: 150px;
 }
 
 
