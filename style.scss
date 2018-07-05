@@ -61,6 +61,14 @@ $color-brown: #463A40;
 	font-family: "Poppins-Medium";
 }
 
+.white {
+	color: white;
+}
+
+.brown {
+	color: $color-brown;
+}
+
 .cap {
 	text-transform: uppercase;
 }
@@ -107,6 +115,21 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
+
+.button {
+	background: $color-light-gray;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
+	border-radius: 22.5px;
+	height: 50px;
+	width: 187px;
+	font-size: 14px;
+	color: $color-brown;
+	letter-spacing: 1.56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #first {
 	background-color: $color-light-gray;
 	height: 493px;
@@ -119,15 +142,36 @@ a:link, a:visited, a:hover, a:active {
 #third {
 	background-color: $color-light-pink;
 	height: 1026px;
+
+	#about_container {
+		background-color: $color-dark-pink;
+	}
 }
 
 #fourth {
 	background-color: $color-dark-blue;
 	height: 185px;
+	color: white;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-right: 60px; 
+	align-items: center;
+
+	.view {
+		color: $color-dark-blue;
+		background-color: white;
+		height: 45px;
+		width: 232px;
+		border-radius: 22.5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 #fifth {
 	height: 80px;
+	color: white;
 }
 
 #sixth {
@@ -138,6 +182,19 @@ a:link, a:visited, a:hover, a:active {
 #footer {
 	background-color: $color-brown;
 	height: 150px;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 60px;
+	padding-left: 60px;
+
+	> div, > a {
+		width: 250px;
+	}
+
+	.flex-column {
+		display: flex;
+		align-items: flex-end;
+	}
 }
 
 
