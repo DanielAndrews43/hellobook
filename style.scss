@@ -39,6 +39,7 @@ $color-light-gray: #FFF7FB;
 $color-brown: #463A40;
 $color-darkest-pink: #BA2676;
 $color-grey-pink: #C7B3BD;
+$color-gray: #E6DFE3;
 
 
 .flex-row {
@@ -224,6 +225,15 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #second {
+<<<<<<< HEAD
+	height: 65px;
+	background-color: $color-light-pink;
+	background-size: 14px 14px;
+  	background-position: 0 0, 7px 7px;
+	background-image:
+  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0), 
+  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0);
+=======
 	height: 100px;
   background-color: #DB5099;
   background-size: 14px 14px;
@@ -232,12 +242,13 @@ a:link, a:visited, a:hover, a:active {
   background-image: 
   	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0), 
   	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0);
+>>>>>>> master
 }
 
 #third {
 	padding-top: 60px;
 	background-color: $color-light-pink;
-	height: 1026px;
+	height: 1171px;
 
 	.left {
 		padding-left: 60px;
@@ -273,7 +284,89 @@ a:link, a:visited, a:hover, a:active {
 	.right {
 		padding-right: 60px;
 		width: 330px;
+		margin-left: 60px;
+		width: 334px;
 
+		.bullets_title {
+			font-size: 24px;
+			letter-spacing: 2.4px;
+			margin-bottom: 30px;
+		}
+
+		.bullets {
+			margin-bottom: 60px;
+		}
+
+		.bullet {
+			margin-top: 6px;
+			margin-bottom: 6px;
+		}
+
+		.bullet_img, .check_bullet_img {
+			margin-right: 20px;
+			padding-top: 3px;
+		}
+
+		.buy_container {
+			background-color: $color-light-gray;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 60px;
+			min-height: 185px;
+			width: 332px;
+			border-radius: 8px;
+			box-shadow: 0 10px 20px 0 rgba(0,0,0,0.20);
+
+			> h3 {
+				font-size: 24px;
+				color: $color-light-pink;
+				margin-top: 43px;
+				letter-spacing: 2.4px;
+
+			}
+
+			.buy {	
+				background-color: $color-gray;
+				position: relative;
+				margin-top: 30px;
+				margin-bottom: 43px;
+				width: 231px;
+				min-height: 45px;
+				border-radius: 22.5px;
+
+
+				.left-button {
+					background-color: $color-light-pink;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-radius: 22.5px;
+					width: 139px;
+					height: 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+					letter-spacing: 1.56px;
+					box-shadow: 0 2px 4px 0 rgba(220,81,153,0.35);
+
+				}
+
+				.price {
+					color: $color-brown;
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+
+				#priceText {
+					display: block;
+					padding-right: 34px;
+					padding-top: 11px;
+					letter-spacing: 1.56px;
+				}
+			}
+		}
 	}
 
 }
