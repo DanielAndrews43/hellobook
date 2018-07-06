@@ -79,7 +79,8 @@ a:link, a:visited, a:hover, a:active {
     font-size: 36px;
     align-items: center; }
     .nav .left .nav-title {
-      color: #C7B3BD; }
+      color: #C7B3BD;
+      letter-spacing: 0; }
   .nav .right {
     padding-right: 60px;
     font-size: 14px;
@@ -155,9 +156,14 @@ a:link, a:visited, a:hover, a:active {
       #first .right #right-content .buy_book {
         background-color: #DB5099;
         color: white;
-        border-radius: 25px; }
+        border-radius: 25px;
+        letter-spacing: 1.56px;
+        font-size: 14px;
+        box-shadow: 0 2px 4px 0 rgba(220, 81, 153, 0.35); }
       #first .right #right-content .sample {
-        color: #DB5099; }
+        color: #DB5099;
+        font-size: 14px;
+        letter-spacing: 1.56px; }
       #first .right #right-content #author_names {
         color: #C7B3BD;
         font-size: 18px;
@@ -178,7 +184,10 @@ a:link, a:visited, a:hover, a:active {
     padding-left: 60px; }
     #third .left h2 {
       font-size: 24px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, 0.9);
+      letter-spacing: 2.4px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
       #third .left h2 span {
         font-size: 60px;
         color: #BA2676; }
@@ -189,7 +198,10 @@ a:link, a:visited, a:hover, a:active {
       padding: 60px;
       font-size: 14px;
       line-height: 24px;
-      border-radius: 7px; }
+      border-radius: 7px;
+      color: rgba(255, 255, 255, 0.8);
+      letter-spacing: 0;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
       #third .left #about_container .line {
         height: 3px;
         background-color: #BA2676;
@@ -203,9 +215,17 @@ a:link, a:visited, a:hover, a:active {
     #third .right .bullets_title {
       font-size: 24px;
       letter-spacing: 2.4px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.9);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
     #third .right .bullets {
-      margin-bottom: 60px; }
+      margin-bottom: 60px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      letter-spacing: 0;
+      line-height: 21px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
     #third .right .bullet {
       margin-top: 6px;
       margin-bottom: 6px; }
@@ -271,6 +291,10 @@ a:link, a:visited, a:hover, a:active {
     width: 1280px;
     padding-left: 30px;
     padding-right: 30px; }
+    #fourth #fourth-content #funded-on {
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 2.4px; }
     #fourth #fourth-content .view {
       color: #034752;
       background-color: white;
@@ -279,7 +303,10 @@ a:link, a:visited, a:hover, a:active {
       border-radius: 22.5px;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.29);
+      letter-spacing: 1.56px;
+      font-size: 14px; }
 
 #fifth {
   height: 80px;
@@ -288,7 +315,10 @@ a:link, a:visited, a:hover, a:active {
   background-repeat: repeat-x;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 1.8px; }
 
 #sixth {
   background-color: #FFF7FB;
@@ -301,9 +331,6 @@ a:link, a:visited, a:hover, a:active {
     padding-right: 30px;
     width: 1024px;
     justify-content: space-between; }
-    #sixth #sixth-content img {
-      height: 392px;
-      width: 112px; }
     #sixth #sixth-content > div {
       width: 100%; }
       #sixth #sixth-content > div #daniel-row {
@@ -324,9 +351,13 @@ a:link, a:visited, a:hover, a:active {
       margin-right: 30px; }
     #sixth #sixth-content .author_name {
       margin-bottom: 15px;
-      font-size: 24px; }
+      font-size: 24px;
+      color: rgba(70, 58, 64, 0.9);
+      letter-spacing: 2.4px; }
     #sixth #sixth-content .author_bio {
-      font-size: 14px; }
+      font-size: 14px;
+      color: rgba(70, 58, 64, 0.9);
+      letter-spacing: 0; }
 
 #footer {
   background-color: #463A40;
@@ -346,6 +377,10 @@ a:link, a:visited, a:hover, a:active {
       width: 250px; }
     #footer #footer-content .flex-column {
       align-items: flex-end; }
+    #footer #footer-content #made {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.9);
+      letter-spacing: 0; }
     #footer #footer-content > div > div {
       margin-top: 5px;
       margin-bottom: 5px;
@@ -367,5 +402,11 @@ a:link, a:visited, a:hover, a:active {
       min-width: 20px;
       min-height: 20px;
       max-height: 20px; }
+    #footer #footer-content .social {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.9);
+      letter-spacing: 0; }
+    #footer #footer-content .button {
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.29); }
 
 /*# sourceMappingURL=style.css.map */

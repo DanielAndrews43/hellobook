@@ -108,6 +108,8 @@ a:link, a:visited, a:hover, a:active {
 
 		.nav-title {
 			color: $color-grey-pink;
+			letter-spacing: 0;
+
 		}
 	}
 	.right {
@@ -156,7 +158,7 @@ a:link, a:visited, a:hover, a:active {
     height: 100%;
 
 		#book_cover {
-			background-image: url(./book.png);
+		background-image: url(./book.png);
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-size: cover;
@@ -210,9 +212,14 @@ a:link, a:visited, a:hover, a:active {
 				background-color: $color-light-pink;
 				color: white;
 				border-radius: 25px;
+				letter-spacing: 1.56px;
+				font-size: 14px;
+				box-shadow: 0 2px 4px 0 rgba(220,81,153,0.35);
 			}
 			.sample {
 				color: $color-light-pink;
+				font-size: 14px;
+				letter-spacing: 1.56px;
 			}
 
 			#author_names {
@@ -227,13 +234,13 @@ a:link, a:visited, a:hover, a:active {
 #second {
 
 	height: 100px;
-  background-color: #DB5099;
-  background-size: 14px 14px;
-  background-position: 0 0, 7px 7px;
+  	background-color: #DB5099;
+  	background-size: 14px 14px;
+  	background-position: 0 0, 7px 7px;
 
-  background-image: 
-  	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0), 
-  	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0);
+  	background-image: 
+  		radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0), 
+  		radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0);
 }
 
 #third {
@@ -247,6 +254,9 @@ a:link, a:visited, a:hover, a:active {
 		h2 {
 			font-size: 24px;
 			margin-bottom: 30px;
+			color: rgba(255,255,255,0.90);
+			letter-spacing: 2.4px;
+			text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 
 			span {
 				font-size: 60px;
@@ -262,6 +272,9 @@ a:link, a:visited, a:hover, a:active {
 			font-size: 14px;
 			line-height: 24px;
 			border-radius: 7px;
+			color: rgba(255,255,255,0.80);
+			letter-spacing: 0;
+			text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 
 			.line {
 				height: 3px;
@@ -282,10 +295,18 @@ a:link, a:visited, a:hover, a:active {
 			font-size: 24px;
 			letter-spacing: 2.4px;
 			margin-bottom: 30px;
+			font-size: 24px;
+			color: rgba(255,255,255,0.90);
+			text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 		}
 
 		.bullets {
 			margin-bottom: 60px;
+			font-size: 14px;
+			color: rgba(255,255,255,0.80);
+			letter-spacing: 0;
+			line-height: 21px;
+			text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 		}
 
 		.bullet {
@@ -376,6 +397,12 @@ a:link, a:visited, a:hover, a:active {
 		padding-left: 30px;
 		padding-right: 30px;
 
+		#funded-on {
+			font-size: 24px;
+			color: rgba(255,255,255,0.50);
+			letter-spacing: 2.4px;
+		}
+
 		.view {
 			color: $color-dark-blue;
 			background-color: white;
@@ -385,6 +412,9 @@ a:link, a:visited, a:hover, a:active {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
+			letter-spacing: 1.56px;
+			font-size: 14px;
 		}
 	}
 }
@@ -397,6 +427,9 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+	font-size: 18px;
+	color: rgba(255,255,255,0.90);
+	letter-spacing: 1.8px;
 }
 
 #sixth {
@@ -411,11 +444,6 @@ a:link, a:visited, a:hover, a:active {
 		padding-right: 30px;
 		width: 1024px;
 		justify-content: space-between;
-
-		img {
-			height: 392px;
-			width: 112px;
-		}
 
 		> div {
 			width: 100%;
@@ -449,13 +477,18 @@ a:link, a:visited, a:hover, a:active {
 			width: 180px;
 			margin-right: 30px;
 		}
+
 		.author_name {
 			margin-bottom: 15px;
 			font-size: 24px;
+			color: rgba(70,58,64,0.90);
+			letter-spacing: 2.4px;
 		}
 
 		.author_bio {
 			font-size: 14px;
+			color: rgba(70,58,64,0.90);
+			letter-spacing: 0;
 		}
 	}
 }
@@ -482,6 +515,12 @@ a:link, a:visited, a:hover, a:active {
 
 		.flex-column {
 			align-items: flex-end;
+		}
+
+		#made {
+			font-size: 14px;
+			color: rgba(255,255,255,0.90);
+			letter-spacing: 0;
 		}
 
 		> div > div {
@@ -511,6 +550,16 @@ a:link, a:visited, a:hover, a:active {
 			min-width: 20px;
 			min-height: 20px;
 			max-height: 20px;
+		}
+
+		.social {
+			font-size: 14px;
+			color: rgba(255,255,255,0.90);
+			letter-spacing: 0;
+		}
+
+		.button {
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
 		}
 	}
 
