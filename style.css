@@ -77,13 +77,19 @@ a:link, a:visited, a:hover, a:active {
   .nav .left {
     padding-left: 60px;
     font-size: 36px; }
+    .nav .left .nav-title {
+      color: #C7B3BD; }
   .nav .right {
     padding-right: 60px;
     font-size: 14px; }
     .nav .right .nav_item {
       margin-right: 15px;
       margin-left: 15px;
-      letter-spacing: 1.56px; }
+      letter-spacing: 1.56px;
+      text-decoration: none;
+      color: #463A40; }
+    .nav .right #buy {
+      color: #DB5099; }
 
 .button {
   background: #FFF7FB;
@@ -138,7 +144,14 @@ a:link, a:visited, a:hover, a:active {
       padding-top: 13px;
       padding-bottom: 13px; }
     #first .right .buy_book {
-      background-color: #DB5099; }
+      background-color: #DB5099;
+      color: white; }
+    #first .right .sample {
+      color: #DB5099; }
+    #first .right #author_names {
+      color: #C7B3BD;
+      font-size: 18px;
+      letter-spacing: 1.8px; }
 
 #second {
   height: 65px;
@@ -205,7 +218,30 @@ a:link, a:visited, a:hover, a:active {
 
 #sixth {
   background-color: #FFF7FB;
-  height: 512px; }
+  height: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 60px;
+  padding-right: 60px; }
+  #sixth img {
+    height: 392px;
+    width: 112px; }
+  #sixth #daniel-row > div, #sixth #boaz-row > div {
+    max-width: 610px; }
+  #sixth > {
+    width: 1024px; }
+  #sixth .container {
+    width: 1024px; }
+  #sixth .circle {
+    height: 180px;
+    width: 180px;
+    margin-right: 30px; }
+  #sixth .author_name {
+    margin-bottom: 15px;
+    font-size: 24px; }
+  #sixth .author_bio {
+    font-size: 14px; }
 
 #footer {
   background-color: #463A40;
