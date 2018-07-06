@@ -242,26 +242,26 @@ a:link, a:visited, a:hover, a:active {
 
 		#about_container {
 			background-color: $color-dark-pink;
-			max-width: 700px;
+			max-width: 600px;
 			min-width: 510px;
 			padding: 60px;
 			font-size: 14px;
 			line-height: 24px;
 			border-radius: 7px;
-			align-items: center;
 
 			.line {
 				height: 3px;
 				background-color: $color-darkest-pink;
 				width: 50%;
-				margin-top: 30px;
-				margin-bottom: 30px;
+				margin: 30px auto;
 			}
 		}
 	}
 
 	.right {
 		padding-right: 60px;
+		width: 330px;
+
 	}
 
 }
@@ -354,12 +354,36 @@ a:link, a:visited, a:hover, a:active {
 	}
 
 	.flex-column {
-		display: flex;
 		align-items: flex-end;
 	}
 
-	.flex-row {
-		width: 109px;
+	> div > div {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		align-items: center;
+	}
+
+	img {
+		margin-left: 15px;
+	}
+
+	#twitter {
+		max-width: 20px;
+		min-width: 20px;
+		min-height: 17px;
+		max-height: 17px;
+	}
+	#insta {
+		max-width: 20px;
+		min-width: 20px;
+		min-height: 20px;
+		max-height: 20px;
+	}
+	#fb {
+		max-width: 20px;
+		min-width: 20px;
+		min-height: 20px;
+		max-height: 20px;
 	}
 
 }
