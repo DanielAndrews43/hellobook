@@ -100,7 +100,45 @@ a:link, a:visited, a:hover, a:active {
 
 #first {
   background-color: #FFF7FB;
-  height: 493px; }
+  height: 580px;
+  padding-top: 96px; }
+  #first .left {
+    margin-left: 60px;
+    width: 50%;
+    height: 100%; }
+    #first .left #book_cover {
+      background-image: url("./book.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      max-width: 705px;
+      min-width: 564px;
+      max-height: 675px;
+      min-height: 540px;
+      margin-left: -30px; }
+  #first .right {
+    margin-right: 60px;
+    width: 50%;
+    justify-content: center; }
+    #first .right h1 {
+      font-size: 48px; }
+    #first .right h3 {
+      font-size: 18px;
+      letter-spacing: 1.8px; }
+    #first .right h4 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 22px;
+      max-width: 375px; }
+    #first .right a {
+      font-size: 14px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 13px;
+      padding-bottom: 13px; }
+    #first .right .buy_book {
+      background-color: #DB5099; }
 
 #second {
   height: 63px; }
@@ -131,7 +169,12 @@ a:link, a:visited, a:hover, a:active {
 
 #fifth {
   height: 80px;
-  color: white; }
+  color: white;
+  background-image: url("thankyou.png");
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #sixth {
   background-color: #FFF7FB;
@@ -149,5 +192,7 @@ a:link, a:visited, a:hover, a:active {
   #footer .flex-column {
     display: flex;
     align-items: flex-end; }
+  #footer .flex-row {
+    width: 109px; }
 
 /*# sourceMappingURL=style.css.map */
