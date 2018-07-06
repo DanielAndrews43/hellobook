@@ -173,91 +173,100 @@ a:link, a:visited, a:hover, a:active {
 #third {
   padding-top: 60px;
   background-color: #DB5099;
-  height: 1171px; }
-  #third .left {
-    padding-left: 60px; }
-    #third .left h2 {
-      font-size: 24px;
-      margin-bottom: 30px; }
-      #third .left h2 span {
-        font-size: 60px;
-        color: #BA2676; }
-    #third .left #about_container {
-      background-color: #CF3E8D;
-      max-width: 600px;
-      min-width: 510px;
-      padding: 60px;
-      font-size: 14px;
-      line-height: 24px;
-      border-radius: 7px; }
-      #third .left #about_container .line {
-        height: 3px;
-        background-color: #BA2676;
-        width: 50%;
-        margin: 30px auto; }
-  #third .right {
-    padding-right: 60px;
-    width: 330px;
-    margin-left: 60px;
-    width: 334px; }
-    #third .right .bullets_title {
-      font-size: 24px;
-      letter-spacing: 2.4px;
-      margin-bottom: 30px; }
-    #third .right .bullets {
-      margin-bottom: 60px; }
-    #third .right .bullet {
-      margin-top: 6px;
-      margin-bottom: 6px; }
-    #third .right .bullet_img, #third .right .check_bullet_img {
-      margin-right: 20px;
-      padding-top: 3px; }
-    #third .right .buy_container {
-      background-color: #FFF7FB;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 60px;
-      min-height: 185px;
-      width: 332px;
-      border-radius: 8px;
-      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); }
-      #third .right .buy_container > h3 {
+  height: 1171px;
+  display: flex;
+  justify-content: center; }
+  #third #third-content {
+    justify-content: center;
+    width: 1280px; }
+    #third #third-content .left {
+      max-width: 50%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #third #third-content .left h2 {
         font-size: 24px;
-        color: #DB5099;
-        margin-top: 43px;
-        letter-spacing: 2.4px; }
-      #third .right .buy_container .buy {
-        background-color: #E6DFE3;
-        position: relative;
-        margin-top: 30px;
-        margin-bottom: 43px;
-        width: 231px;
-        min-height: 45px;
-        border-radius: 22.5px; }
-        #third .right .buy_container .buy .left-button {
-          background-color: #DB5099;
+        margin-bottom: 30px; }
+        #third #third-content .left h2 span {
+          font-size: 60px;
+          color: #BA2676; }
+      #third #third-content .left #about_container {
+        background-color: #CF3E8D;
+        max-width: 600px;
+        min-width: 420px;
+        padding: 30px;
+        font-size: 14px;
+        line-height: 24px;
+        border-radius: 7px; }
+        #third #third-content .left #about_container .line {
+          height: 3px;
+          background-color: #BA2676;
+          width: 50%;
+          margin: 30px auto; }
+    #third #third-content .right {
+      display: flex;
+      width: 50%;
+      padding-left: 30px;
+      padding-right: 30px; }
+      #third #third-content .right .right-content {
+        width: 334px; }
+        #third #third-content .right .right-content .bullets_title {
+          font-size: 24px;
+          letter-spacing: 2.4px;
+          margin-bottom: 30px; }
+        #third #third-content .right .right-content .bullets {
+          margin-bottom: 60px; }
+        #third #third-content .right .right-content .bullet {
+          margin-top: 6px;
+          margin-bottom: 6px; }
+        #third #third-content .right .right-content .bullet_img, #third #third-content .right .right-content .check_bullet_img {
+          margin-right: 20px;
+          padding-top: 3px; }
+        #third #third-content .right .right-content .buy_container {
+          background-color: #FFF7FB;
           display: flex;
           justify-content: center;
           align-items: center;
-          border-radius: 22.5px;
-          width: 139px;
-          height: 100%;
-          position: absolute;
-          left: 0;
-          top: 0;
-          letter-spacing: 1.56px;
-          box-shadow: 0 2px 4px 0 rgba(220, 81, 153, 0.35); }
-        #third .right .buy_container .buy .price {
-          color: #463A40;
-          position: absolute;
-          right: 0;
-          top: 0; }
-        #third .right .buy_container .buy #priceText {
-          display: block;
-          padding-right: 34px;
-          padding-top: 11px;
-          letter-spacing: 1.56px; }
+          margin-bottom: 60px;
+          min-height: 185px;
+          width: 332px;
+          border-radius: 8px;
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); }
+          #third #third-content .right .right-content .buy_container > h3 {
+            font-size: 24px;
+            color: #DB5099;
+            margin-top: 43px;
+            letter-spacing: 2.4px; }
+          #third #third-content .right .right-content .buy_container .buy {
+            background-color: #E6DFE3;
+            position: relative;
+            margin-top: 30px;
+            margin-bottom: 43px;
+            width: 231px;
+            min-height: 45px;
+            border-radius: 22.5px; }
+            #third #third-content .right .right-content .buy_container .buy .left-button {
+              background-color: #DB5099;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 22.5px;
+              width: 139px;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              letter-spacing: 1.56px;
+              box-shadow: 0 2px 4px 0 rgba(220, 81, 153, 0.35); }
+            #third #third-content .right .right-content .buy_container .buy .price {
+              color: #463A40;
+              position: absolute;
+              right: 0;
+              top: 0; }
+            #third #third-content .right .right-content .buy_container .buy #priceText {
+              display: block;
+              padding-right: 34px;
+              padding-top: 11px;
+              letter-spacing: 1.56px; }
 
 #fourth {
   background-color: #034752;
