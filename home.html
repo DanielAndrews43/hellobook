@@ -19,20 +19,22 @@
 
     <div id="first" class="container flex-row">
         <div class="left">
-            <div class="img" id="book_cover"></div>
+            <img src="./book.png" class="img" id="book_cover"></img>
         </div>
         <div class="right flex-column">
-            <h1 class="PrintBold">Hello, World!</h1>
-            <h3 class="cap PoppinsBold" id="author_names">DANIEL ANDREWS • BOAZ WILLIS</h3>
-            <h4 class="PoppinsMedium">"Hello, World!" is a coffee table book that captures the first magical moments of programming through beautiful artistic exposition.</h4>
-            <div class="action flex-row PoppinsBold">
-                <a class="buy_book cap">GET YOUR COPY</a>
-                <a class="sample cap">SAMPLE</a>
-            </div>
-            <div class="social">
-                <div class="fb"></div>
-                <div class="insta"></div>
-                <div class="twitter"></div>
+            <div id="right-content" class="flex-column">
+                <h1 class="PrintBold">Hello, World!</h1>
+                <h3 class="cap PoppinsBold" id="author_names">DANIEL ANDREWS • BOAZ WILLIS</h3>
+                <h4 class="PoppinsMedium">"Hello, World!" is a coffee table book that captures the first magical moments of programming through beautiful artistic exposition.</h4>
+                <div class="action flex-row PoppinsBold">
+                    <a class="buy_book cap">GET YOUR COPY</a>
+                    <a class="sample cap">SAMPLE</a>
+                </div>
+                <div class="social">
+                    <img src="facebook.svg" class="img" id="fb"></img>
+                    <img src="instagram.svg" class="img" id="insta"></img>
+                    <img src="twitter.svg" class="img" id="twitter"></img>
+                </div>
             </div>
         </div>
     </div>
@@ -108,13 +110,15 @@
         </div>
     </div>
 
-    <div id="fourth" class="container flex-row">
-        <div class="left flex-column">
-            <div class="cap PrintBold">FUNDED ON</div>
-            <a class="ks" href="http://www.urloflink.com"><img src="kickstarter-logo.svg"></a>
-        </div>
-        <div class="right">
-            <a class="view cap PoppinsBold">VIEW THE CAMPAIGN</a>
+    <div id="fourth" class="container">
+        <div id="fourth-content" class="flex-row">
+            <div class="left flex-column">
+                <div class="cap PrintBold">FUNDED ON</div>
+                <a class="ks" href="http://www.urloflink.com"><img src="kickstarter-logo.svg"></a>
+            </div>
+            <div class="right">
+                <a class="view cap PoppinsBold">VIEW THE CAMPAIGN</a>
+            </div>
         </div>
     </div>
 
@@ -122,46 +126,50 @@
         <h4 class="PoppinsBold">THANKS TO ALL 92 BACKERS — YOU MADE THIS POSSIBLE!</h4>
     </div> 
 
-    <div id="sixth" class="container flex-row">
-        <img class="open-curly" src="open-curly.svg">
-        <div class="flex-column">
-            <div id="daniel-row">
-                <div class="flex-row">
-                    <img src="Oval.svg" class="circle">
-                    <div class="flex-column">
-                        <h3 class="cap author_name PrintBold">DANIEL ANDREWS</h3>
-                        <div class="author_bio PoppinsMedium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    <div id="sixth" class="container">
+        <div id="sixth-content" class="flex-row">
+            <img class="open-curly" src="open-curly.svg">
+            <div class="flex-column">
+                <div id="daniel-row">
+                    <div class="flex-row">
+                        <img src="Oval.svg" class="circle">
+                        <div class="flex-column">
+                            <h3 class="cap author_name PrintBold">DANIEL ANDREWS</h3>
+                            <div class="author_bio PoppinsMedium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="boaz-row">
+                    <div class="flex-row">
+                        <img src="Oval.svg" class="circle" id="boaz-img">
+                        <div class="flex-column">
+                            <h3 class="cap author_name PrintBold">BOAZ WILLIS</h3>
+                            <div class="author_bio PoppinsMedium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="boaz-row">
-                <div class="flex-row">
-                    <img src="Oval.svg" class="circle" id="boaz-img">
-                    <div class="flex-column">
-                        <h3 class="cap author_name PrintBold">BOAZ WILLIS</h3>
-                        <div class="author_bio PoppinsMedium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                    </div>
-                </div>
-            </div>
+            <img class="close-curly" src="close-curly.svg">
         </div>
-        <img class="close-curly" src="close-curly.svg">
     </div>
 
-    <div id="footer" class="container flex-row">
-        <div class="PoppinsMedium white">Made with ♥ in Los Angeles, CA</div>
-        <a class="button PoppinsBold">RETURN TO TOP</a>
-        <div class="flex-column white">
-            <div class="flex-row">
-                <div class="PoppinsMedium">Facebook</div>
-                <img src="facebook.svg" class="img" id="fb"></img>
-            </div>
-            <div class="flex-row">
-                <div class="PoppinsMedium">Instagram</div>
-                <img src="instagram.svg" class="img" id="insta"></img>
-            </div>
-            <div class="flex-row">
-                <div class="PoppinsMedium">Twitter</div>
-                <img src="twitter.svg" class="img" id="twitter"></img>
+    <div id="footer" class="container">
+        <div id="footer-content" class="flex-row">
+            <div class="PoppinsMedium white">Made with ♥ in Los Angeles, CA</div>
+            <a class="button PoppinsBold">RETURN TO TOP</a>
+            <div class="flex-column white">
+                <div class="flex-row">
+                    <div class="PoppinsMedium">Facebook</div>
+                    <img src="facebook.svg" class="img" id="fb"></img>
+                </div>
+                <div class="flex-row">
+                    <div class="PoppinsMedium">Instagram</div>
+                    <img src="instagram.svg" class="img" id="insta"></img>
+                </div>
+                <div class="flex-row">
+                    <div class="PoppinsMedium">Twitter</div>
+                    <img src="twitter.svg" class="img" id="twitter"></img>
+                </div>
             </div>
         </div>
     </div>
