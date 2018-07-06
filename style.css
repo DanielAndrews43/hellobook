@@ -161,21 +161,20 @@ a:link, a:visited, a:hover, a:active {
         color: #BA2676; }
     #third .left #about_container {
       background-color: #CF3E8D;
-      max-width: 700px;
+      max-width: 600px;
       min-width: 510px;
       padding: 60px;
       font-size: 14px;
       line-height: 24px;
-      border-radius: 7px;
-      align-items: center; }
+      border-radius: 7px; }
       #third .left #about_container .line {
         height: 3px;
         background-color: #BA2676;
         width: 50%;
-        margin-top: 30px;
-        margin-bottom: 30px; }
+        margin: 30px auto; }
   #third .right {
-    padding-right: 60px; }
+    padding-right: 60px;
+    width: 330px; }
 
 #fourth {
   background-color: #034752;
@@ -218,9 +217,27 @@ a:link, a:visited, a:hover, a:active {
   #footer > div, #footer > a {
     width: 250px; }
   #footer .flex-column {
-    display: flex;
     align-items: flex-end; }
-  #footer .flex-row {
-    width: 109px; }
+  #footer > div > div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center; }
+  #footer img {
+    margin-left: 15px; }
+  #footer #twitter {
+    max-width: 20px;
+    min-width: 20px;
+    min-height: 17px;
+    max-height: 17px; }
+  #footer #insta {
+    max-width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    max-height: 20px; }
+  #footer #fb {
+    max-width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    max-height: 20px; }
 
 /*# sourceMappingURL=style.css.map */
