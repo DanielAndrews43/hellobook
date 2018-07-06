@@ -197,7 +197,12 @@ a:link, a:visited, a:hover, a:active {
 
 #fifth {
   height: 80px;
-  color: white; }
+  color: white;
+  background-image: url("thankyou.png");
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #sixth {
   background-color: #FFF7FB;
@@ -215,5 +220,7 @@ a:link, a:visited, a:hover, a:active {
   #footer .flex-column {
     display: flex;
     align-items: flex-end; }
+  #footer .flex-row {
+    width: 109px; }
 
 /*# sourceMappingURL=style.css.map */

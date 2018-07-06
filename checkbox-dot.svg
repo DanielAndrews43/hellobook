@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="Desktop" transform="translate(-627.000000, -951.000000)">
+            <g id="Main-Content-Area" transform="translate(0.000000, 493.000000)">
+                <g id="What's-Inside" transform="translate(630.000000, 401.000000)">
+                    <g id="bullet" transform="translate(0.000000, 59.000000)">
+                        <g id="Oval-2">
+                            <circle stroke="#FFFFFF" stroke-width="2" cx="7.5" cy="7.5" r="7.5"></circle>
+                            <circle fill="#FFFFFF" cx="7.5" cy="7.5" r="2.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
