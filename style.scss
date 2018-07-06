@@ -225,15 +225,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #second {
-<<<<<<< HEAD
-	height: 65px;
-	background-color: $color-light-pink;
-	background-size: 14px 14px;
-  	background-position: 0 0, 7px 7px;
-	background-image:
-  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0), 
-  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0);
-=======
+
 	height: 100px;
   background-color: #DB5099;
   background-size: 14px 14px;
@@ -242,7 +234,6 @@ a:link, a:visited, a:hover, a:active {
   background-image: 
   	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0), 
   	radial-gradient(rgba(0, 0, 0, 0.2) 20%, transparent 0);
->>>>>>> master
 }
 
 #third {
