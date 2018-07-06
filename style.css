@@ -141,13 +141,41 @@ a:link, a:visited, a:hover, a:active {
       background-color: #DB5099; }
 
 #second {
-  height: 63px; }
+  height: 65px;
+  background-color: #DB5099;
+  background-size: 14px 14px;
+  background-position: 0 0, 7px 7px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.2) 10%, transparent 0), radial-gradient(rgba(0, 0, 0, 0.2) 10%, transparent 0); }
 
 #third {
+  padding-top: 60px;
   background-color: #DB5099;
   height: 1026px; }
-  #third #about_container {
-    background-color: #CF3E8D; }
+  #third .left {
+    padding-left: 60px; }
+    #third .left h2 {
+      font-size: 24px;
+      margin-bottom: 30px; }
+      #third .left h2 span {
+        font-size: 60px;
+        color: #BA2676; }
+    #third .left #about_container {
+      background-color: #CF3E8D;
+      max-width: 700px;
+      min-width: 510px;
+      padding: 60px;
+      font-size: 14px;
+      line-height: 24px;
+      border-radius: 7px;
+      align-items: center; }
+      #third .left #about_container .line {
+        height: 3px;
+        background-color: #BA2676;
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+  #third .right {
+    padding-right: 60px; }
 
 #fourth {
   background-color: #034752;

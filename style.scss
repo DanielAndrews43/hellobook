@@ -37,6 +37,7 @@ $color-light-pink: #DB5099;
 $color-dark-pink: #CF3E8D;
 $color-light-gray: #FFF7FB;
 $color-brown: #463A40;
+$color-darkest-pink: #BA2676;
 
 
 .flex-row {
@@ -193,15 +194,57 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #second {
-	height: 63px;
+	height: 65px;
+
+	background-color: $color-light-pink;
+	background-size: 14px 14px;
+  background-position: 0 0, 7px 7px;
+	background-image:
+  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0), 
+  	radial-gradient(rgba(0,0,0,.2) 10%, transparent 0);
 }
 
 #third {
+	padding-top: 60px;
 	background-color: $color-light-pink;
 	height: 1026px;
 
-	#about_container {
-		background-color: $color-dark-pink;
+	.left {
+		padding-left: 60px;
+
+		h2 {
+			font-size: 24px;
+			margin-bottom: 30px;
+
+			span {
+				font-size: 60px;
+				color: $color-darkest-pink;
+			}
+		}
+
+		#about_container {
+			background-color: $color-dark-pink;
+			max-width: 700px;
+			min-width: 510px;
+			padding: 60px;
+			font-size: 14px;
+			line-height: 24px;
+			border-radius: 7px;
+			align-items: center;
+
+			.line {
+				height: 3px;
+				background-color: $color-darkest-pink;
+				width: 50%;
+				margin-top: 30px;
+				margin-bottom: 30px;
+
+			}
+		}
+	}
+
+	.right {
+		padding-right: 60px;
 	}
 
 }
