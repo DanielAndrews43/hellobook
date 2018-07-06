@@ -100,16 +100,82 @@ a:link, a:visited, a:hover, a:active {
 
 #first {
   background-color: #FFF7FB;
-  height: 493px; }
+  height: 580px;
+  padding-top: 96px; }
+  #first .left {
+    margin-left: 60px;
+    width: 50%;
+    height: 100%; }
+    #first .left #book_cover {
+      background-image: url("./book.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      max-width: 705px;
+      min-width: 564px;
+      max-height: 675px;
+      min-height: 540px;
+      margin-left: -30px; }
+  #first .right {
+    margin-right: 60px;
+    width: 50%;
+    justify-content: center; }
+    #first .right h1 {
+      font-size: 48px; }
+    #first .right h3 {
+      font-size: 18px;
+      letter-spacing: 1.8px; }
+    #first .right h4 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 22px;
+      max-width: 375px; }
+    #first .right a {
+      font-size: 14px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 13px;
+      padding-bottom: 13px; }
+    #first .right .buy_book {
+      background-color: #DB5099; }
 
 #second {
-  height: 63px; }
+  height: 65px;
+  background-color: #DB5099;
+  background-size: 14px 14px;
+  background-position: 0 0, 7px 7px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.2) 10%, transparent 0), radial-gradient(rgba(0, 0, 0, 0.2) 10%, transparent 0); }
 
 #third {
+  padding-top: 60px;
   background-color: #DB5099;
   height: 1026px; }
-  #third #about_container {
-    background-color: #CF3E8D; }
+  #third .left {
+    padding-left: 60px; }
+    #third .left h2 {
+      font-size: 24px;
+      margin-bottom: 30px; }
+      #third .left h2 span {
+        font-size: 60px;
+        color: #BA2676; }
+    #third .left #about_container {
+      background-color: #CF3E8D;
+      max-width: 700px;
+      min-width: 510px;
+      padding: 60px;
+      font-size: 14px;
+      line-height: 24px;
+      border-radius: 7px;
+      align-items: center; }
+      #third .left #about_container .line {
+        height: 3px;
+        background-color: #BA2676;
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+  #third .right {
+    padding-right: 60px; }
 
 #fourth {
   background-color: #034752;
