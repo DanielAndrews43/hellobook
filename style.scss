@@ -575,5 +575,170 @@ a:link, a:visited, a:hover, a:active {
 			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
 		}
 	}
-
 }
+
+
+@media screen and (max-width: 1024px) {
+
+	#first {
+	    max-height: 1000px;
+	    min-height: 815px;
+	    padding-top: 125px;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding-bottom: 50px;
+
+	   	.left {
+			width: 75%;
+			padding-left: 0px;
+			display: flex;
+			justify-content: center;
+
+			#book_cover {
+				margin-left: 0px;
+			}
+		}
+
+		.right {
+			width: 75%;
+			align-items: center;
+
+			#right-content {
+				padding-left: 0px;
+	   			justify-content: center;
+	   			align-items: center;
+			}
+
+			h4 {
+				text-align: center;
+			}
+		}
+	}
+
+	#second {
+		height: 75px;
+	}
+
+	#third {
+		padding-top: 20px;
+		min-height: 1800px;
+
+
+		#third-content {
+			justify-content: flex-start;
+			flex-direction: column;
+			align-items: center;
+			width: 75%;
+
+			.left {
+				max-width: 100%;
+
+				h2 {
+					font-size: 40px;
+					text-align: center;
+					letter-spacing: 2.4px;
+				}
+
+				#about_container {
+					margin-bottom: 50px;
+				}
+			}
+
+			.right {
+				max-width: 100%;
+
+				.bullets_title {
+
+				}
+			}
+		}
+	}
+
+	#footer {
+		padding-left: 20px;
+		padding-right: 20px; 
+
+		#footer-content{
+			justify-content: space-between;
+			font-size: 12px;
+
+			.button {
+				font-size: 12px;
+				letter-spacing: 1.3px; 
+			}
+
+			> div, > a  {
+				width: 150px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#first {
+		min-height: 676px;
+		padding-bottom: 25px;
+
+		.left {
+
+			#book_cover {
+				max-width: 705px;
+				max-height: 675px;
+				min-height: 225px;
+				min-width: 235px;
+				margin-bottom: 30px;
+			}
+		}
+
+		.right {
+
+			#right-content {
+				h1 {
+					letter-spacing: 0;
+				}
+
+				h3 {
+					font-size: 14px;
+					letter-spacing: 1.4px;
+				}
+
+				h4 {
+					font-size: 13px;
+					letter-spacing: 0;
+					text-align: center;
+					line-height: 19px;
+				}
+			}
+		}	
+	}
+
+	#second {
+		height: 30px;
+	}
+
+	#third {
+		#third-content {
+
+			.left {
+				h2 {
+					height: 62px;
+					min-width: 258px;
+					font-size: 24px;
+
+				}	
+
+				span {
+					letter-spacing: 2.4px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
