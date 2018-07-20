@@ -21,15 +21,15 @@ time, mark, audio, video {
 
 @font-face {
 	font-family: "Poppins-Bold";
-	src: url(Poppins-Bold.ttf);
+	src: url(../fonts/Poppins-Bold.ttf);
 }
 @font-face {
 	font-family: "PrintBold";
-	src: url(PrintBold.otf);
+	src: url(../fonts/PrintBold.otf);
 }
 @font-face {
 	font-family: "Poppins-Medium";
-	src: url(Poppins-Medium.ttf);
+	src: url(../fonts/Poppins-Medium.ttf);
 }
 
 $color-dark-blue: #034752;
@@ -242,7 +242,7 @@ a:link, a:visited, a:hover, a:active {
 #third {
 	padding-top: 60px;
 	background-color: $color-light-pink;
-	height: 1171px;
+	height: 1100px;
 	display: flex;
 	justify-content: center;
 
@@ -261,6 +261,9 @@ a:link, a:visited, a:hover, a:active {
 				color: rgba(255,255,255,0.90);
 				letter-spacing: 2.4px;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 
 			span {
@@ -297,6 +300,7 @@ a:link, a:visited, a:hover, a:active {
 
 			.right-content {
 				width: 334px;
+				padding-top: 15px;
 
 				.bullets_title {
 					font-size: 24px;
@@ -431,7 +435,7 @@ a:link, a:visited, a:hover, a:active {
 #fifth {
 	height: 80px;
 	color: white;
-	background-image: url("thankyou.png");
+	background-image: url("../icons/thankyou.png");
     background-repeat: repeat-x;
     display: flex;
     justify-content: center;
@@ -707,10 +711,6 @@ a:link, a:visited, a:hover, a:active {
 				}
 			}
 		}	
-	}
-
-	#second {
-		height: 30px;
 	}
 
 	#third {
