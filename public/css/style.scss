@@ -52,6 +52,10 @@ $color-gray: #E6DFE3;
 	flex-direction: column;
 }
 
+.margins {
+	margin: 0px 7.5% 0px 7.5%;
+}
+
 .PrintBold {
 	font-family: "PrintBold";
 }
@@ -102,9 +106,9 @@ a:link, a:visited, a:hover, a:active {
 	padding-bottom: 32px;
 
 	.left {
-		padding-left: 60px;
 		font-size: 36px;
 		align-items: center;
+		margin-left: 7.5%;
 
 		.nav-title {
 			color: $color-grey-pink;
@@ -113,9 +117,9 @@ a:link, a:visited, a:hover, a:active {
 		}
 	}
 	.right {
-		padding-right: 60px;
 		font-size: 14px;
 		align-items: center;
+		margin-right: 7.5%;
 
 		.nav_item {
 			margin-right: 15px;
@@ -150,11 +154,11 @@ a:link, a:visited, a:hover, a:active {
 	background-color: $color-light-gray;
 	max-height: 580px;
 	min-height: 580px;
-	padding-top: 125px;
-
+	padding: 125px 7.5% 0px 7.5%;
+	display: flex;
+	justify-content: space-between;
 	.left {
-    padding-left: 60px;
-    width: 50%;
+    width: 47%;
     height: 100%;
 
 		#book_cover {
@@ -171,7 +175,7 @@ a:link, a:visited, a:hover, a:active {
 		}
 	}
 	.right {
-		width: 50%;
+		width: 47%;
 		display: flex;
 		justify-content: center;
 
@@ -181,7 +185,7 @@ a:link, a:visited, a:hover, a:active {
 			justify-content: center;
 
 			h1 {
-				font-size: 48px;
+				font-size: 76px;
 			}
 			h3 {
 				font-size: 18px;
@@ -242,13 +246,12 @@ a:link, a:visited, a:hover, a:active {
 #third {
 	padding-top: 60px;
 	background-color: $color-light-pink;
-	height: 1100px;
 	display: flex;
 	justify-content: center;
 
 	#third-content {
-		justify-content: center;
-		width: 1280px;
+		justify-content: space-between;
+		width: 100%;
 
 		.left {
 			max-width: 50%;
@@ -257,7 +260,7 @@ a:link, a:visited, a:hover, a:active {
 
 			h2 {
 				font-size: 24px;
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 				color: rgba(255,255,255,0.90);
 				letter-spacing: 2.4px;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
@@ -282,6 +285,9 @@ a:link, a:visited, a:hover, a:active {
 				color: rgba(255,255,255,0.80);
 				letter-spacing: 0;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+				height: 100%;
+				margin-bottom: 60px;
+				justify-content: space-between;
 
 				.line {
 					height: 3px;
@@ -289,14 +295,21 @@ a:link, a:visited, a:hover, a:active {
 					width: 50%;
 					margin: 30px auto;
 				}
+
+				img {
+					width: 100%;
+					height: 100%;
+					height: 287px;
+
+				}
 			}
 		}
 
 		.right {
 			display: flex;
 			width: 50%;
-			padding-left: 30px;
-			padding-right: 30px;
+			padding-left: 60px;
+			justify-content: center;
 
 			.right-content {
 				width: 334px;
