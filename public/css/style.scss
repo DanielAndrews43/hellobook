@@ -21,15 +21,15 @@ time, mark, audio, video {
 
 @font-face {
 	font-family: "Poppins-Bold";
-	src: url(Poppins-Bold.ttf);
+	src: url(../fonts/Poppins-Bold.ttf);
 }
 @font-face {
 	font-family: "PrintBold";
-	src: url(PrintBold.otf);
+	src: url(../fonts/PrintBold.otf);
 }
 @font-face {
 	font-family: "Poppins-Medium";
-	src: url(Poppins-Medium.ttf);
+	src: url(../fonts/Poppins-Medium.ttf);
 }
 
 $color-dark-blue: #034752;
@@ -50,6 +50,10 @@ $color-gray: #E6DFE3;
 .flex-column {
 	display: flex;
 	flex-direction: column;
+}
+
+.margins {
+	margin: 0px 5.5% 0px 5.5%;
 }
 
 .PrintBold {
@@ -102,9 +106,9 @@ a:link, a:visited, a:hover, a:active {
 	padding-bottom: 32px;
 
 	.left {
-		padding-left: 60px;
 		font-size: 36px;
 		align-items: center;
+		margin-left: 5.5%;
 
 		.nav-title {
 			color: $color-grey-pink;
@@ -113,9 +117,9 @@ a:link, a:visited, a:hover, a:active {
 		}
 	}
 	.right {
-		padding-right: 60px;
 		font-size: 14px;
 		align-items: center;
+		margin-right: 5.5%;
 
 		.nav_item {
 			margin-right: 15px;
@@ -151,77 +155,76 @@ a:link, a:visited, a:hover, a:active {
 	max-height: 580px;
 	min-height: 580px;
 	padding-top: 125px;
+	display: flex;
+	justify-content: space-between;
 
-	.left {
-    padding-left: 60px;
-    width: 50%;
-    height: 100%;
+	#first-content {
 
-		#book_cover {
+		width: 100%;
+		justify-content: space-between;
 
-	    max-width: 705px;
-	    min-width: 564px;
-	    width: 100%;
+		.left {
+	    	width: 60%;
+	   	 	height: 100%;
 
-	    max-height: 675px;
-	    min-height: 540px;
-	    height: 100%;
-	    
-	    margin-left: -30px;
+			#book_cover {
+			    width: 100%;
+			    height: 100%;
+			    margin-left: -30px;
+			    
+			}
 		}
-	}
-	.right {
-		width: 50%;
-		display: flex;
-		justify-content: center;
-
-		#right-content {
-			width: 350px;
-			padding-left: 75px;
+		.right {
+			width: 40%;
+			display: flex;
 			justify-content: center;
 
-			h1 {
-				font-size: 48px;
-			}
-			h3 {
-				font-size: 18px;
-				letter-spacing: 1.8px;
-			}
-			h4 {
-				margin-top: 30px;
-				margin-bottom: 30px;
-				font-size: 14px;
-				line-height: 22px;
-				max-width: 375px;
-			}
+			#right-content {
+				width: 100%;
 
-			a {
-				font-size: 14px;
+				h1 {
+					font-size: 76px;
+				}
+				h3 {
+					font-size: 18px;
+					letter-spacing: 1.8px;
+				}
+				h4 {
+					margin-top: 30px;
+					margin-bottom: 30px;
+					font-size: 14px;
+					line-height: 22px;
+					max-width: 375px;
+				}
 
-				padding-left: 30px;
-				padding-right: 30px;
-				padding-top: 13px;
-				padding-bottom: 13px;
-			}
+				a {
+					font-size: 14px;
 
-			.buy_book {
-				background-color: $color-light-pink;
-				color: white;
-				border-radius: 25px;
-				letter-spacing: 1.56px;
-				font-size: 14px;
-				box-shadow: 0 2px 4px 0 rgba(220,81,153,0.35);
-			}
-			.sample {
-				color: $color-light-pink;
-				font-size: 14px;
-				letter-spacing: 1.56px;
-			}
+					padding-left: 30px;
+					padding-right: 30px;
+					padding-top: 13px;
+					padding-bottom: 13px;
+				}
 
-			#author_names {
-				color: $color-grey-pink;
-				font-size: 18px;
-				letter-spacing: 1.8px;
+				.buy_book {
+					background-color: $color-light-pink;
+					color: white;
+					border-radius: 25px;
+					letter-spacing: 1.56px;
+					font-size: 14px;
+					box-shadow: 0 2px 4px 0 rgba(220,81,153,0.35);
+				}
+				.sample {
+					color: $color-light-pink;
+					font-size: 14px;
+					letter-spacing: 1.56px;
+				}
+
+				#author_names {
+					color: $color-grey-pink;
+					font-size: 18px;
+					letter-spacing: 1.8px;
+				}
 			}
 		}
 	}
@@ -242,25 +245,25 @@ a:link, a:visited, a:hover, a:active {
 #third {
 	padding-top: 60px;
 	background-color: $color-light-pink;
-	height: 1171px;
 	display: flex;
 	justify-content: center;
 
 	#third-content {
-		justify-content: center;
-		width: 1280px;
+		justify-content: space-between;
+		width: 100%;
 
 		.left {
-			max-width: 50%;
-			padding-left: 15px;
-			padding-right: 15px;
+			width: 45%;
 
 			h2 {
 				font-size: 24px;
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 				color: rgba(255,255,255,0.90);
 				letter-spacing: 2.4px;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 
 			span {
@@ -270,8 +273,7 @@ a:link, a:visited, a:hover, a:active {
 
 			#about_container {
 				background-color: $color-dark-pink;
-				max-width: 600px;
-				min-width: 420px;
+				width: 100%;
 				padding: 30px;
 				font-size: 14px;
 				line-height: 24px;
@@ -279,6 +281,9 @@ a:link, a:visited, a:hover, a:active {
 				color: rgba(255,255,255,0.80);
 				letter-spacing: 0;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+				height: 100%;
+				margin-bottom: 60px;
+				justify-content: space-between;
 
 				.line {
 					height: 3px;
@@ -286,17 +291,21 @@ a:link, a:visited, a:hover, a:active {
 					width: 50%;
 					margin: 30px auto;
 				}
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
 			}
 		}
 
 		.right {
-			display: flex;
-			width: 50%;
-			padding-left: 30px;
-			padding-right: 30px;
+			width: 45%;
 
 			.right-content {
-				width: 334px;
+				width: 100%;
+				padding-top: 15px;
+				margin-left: 7.5%;
 
 				.bullets_title {
 					font-size: 24px;
@@ -305,6 +314,7 @@ a:link, a:visited, a:hover, a:active {
 					font-size: 24px;
 					color: rgba(255,255,255,0.90);
 					text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+					text-align: center;
 				}
 
 				.bullets {
@@ -333,7 +343,7 @@ a:link, a:visited, a:hover, a:active {
 					align-items: center;
 					margin-bottom: 60px;
 					min-height: 185px;
-					width: 332px;
+					width: 100%;
 					border-radius: 8px;
 					box-shadow: 0 10px 20px 0 rgba(0,0,0,0.20);
 
@@ -350,7 +360,7 @@ a:link, a:visited, a:hover, a:active {
 						position: relative;
 						margin-top: 30px;
 						margin-bottom: 43px;
-						width: 231px;
+						width: 80%;
 						min-height: 45px;
 						border-radius: 22.5px;
 
@@ -361,7 +371,7 @@ a:link, a:visited, a:hover, a:active {
 							justify-content: center;
 							align-items: center;
 							border-radius: 22.5px;
-							width: 139px;
+							width: 60%;
 							height: 100%;
 							position: absolute;
 							left: 0;
@@ -402,9 +412,7 @@ a:link, a:visited, a:hover, a:active {
 	#fourth-content {
 		justify-content: space-between;
 		align-items: center;
-		width: 1280px;
-		padding-left: 30px;
-		padding-right: 30px;
+		width: 100%;
 
 		#funded-on {
 			font-size: 24px;
@@ -431,7 +439,7 @@ a:link, a:visited, a:hover, a:active {
 #fifth {
 	height: 80px;
 	color: white;
-	background-image: url("thankyou.png");
+	background-image: url("../icons/thankyou.png");
     background-repeat: repeat-x;
     display: flex;
     justify-content: center;
@@ -449,9 +457,7 @@ a:link, a:visited, a:hover, a:active {
 	justify-content: center;
 
 	#sixth-content {
-		padding-left: 30px;
-		padding-right: 30px;
-		width: 1024px;
+		width: 100%;
 		justify-content: space-between;
 
 		> div {
@@ -573,103 +579,22 @@ a:link, a:visited, a:hover, a:active {
 	}
 }
 
-
 @media screen and (max-width: 1024px) {
 
+	.margins {
+
+	}
+
 	#first {
-	    max-height: 1000px;
-	    min-height: 815px;
-	    padding-top: 125px;
-	    flex-direction: column;
-	    justify-content: center;
-	    align-items: center;
-	    padding-bottom: 50px;
-
-	   	.left {
-			width: 75%;
-			padding-left: 0px;
-			display: flex;
-			justify-content: center;
-
-			#book_cover {
-				margin-left: 0px;
-			}
-		}
 
 		.right {
-			width: 75%;
-			align-items: center;
-
 			#right-content {
 				padding-left: 0px;
-	   			justify-content: center;
-	   			align-items: center;
-			}
-
-			h4 {
-				text-align: center;
-			}
-		}
-	}
-
-	#second {
-		height: 75px;
-	}
-
-	#third {
-		padding-top: 20px;
-		min-height: 1800px;
-
-
-		#third-content {
-			justify-content: flex-start;
-			flex-direction: column;
-			align-items: center;
-			width: 75%;
-
-			.left {
-				max-width: 100%;
-
-				h2 {
-					font-size: 40px;
-					text-align: center;
-					letter-spacing: 2.4px;
-				}
-
-				#about_container {
-					margin-bottom: 50px;
-				}
-			}
-
-			.right {
-				max-width: 100%;
-
-				.bullets_title {
-
-				}
-			}
-		}
-	}
-
-	#footer {
-		padding-left: 20px;
-		padding-right: 20px; 
-
-		#footer-content{
-			justify-content: space-between;
-			font-size: 12px;
-
-			.button {
-				font-size: 12px;
-				letter-spacing: 1.3px; 
-			}
-
-			> div, > a  {
-				width: 150px;
 			}
 		}
 	}
 }
+
 
 @media screen and (max-width: 768px) {
 	#first {
@@ -707,10 +632,6 @@ a:link, a:visited, a:hover, a:active {
 				}
 			}
 		}	
-	}
-
-	#second {
-		height: 30px;
 	}
 
 	#third {

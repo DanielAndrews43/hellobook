@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490px" height="327px" viewBox="0 0 490 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Video</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.8%" y="-8.7%" width="115.6%" height="124.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-70.000000, -1196.000000)" stroke-width="3">
+            <g id="Main-Content-Area" transform="translate(0.000000, 493.000000)">
+                <g id="About-the-Book-Content" transform="translate(60.000000, 215.000000)">
+                    <g id="Video" filter="url(#filter-1)" transform="translate(30.000000, 498.000000)">
+                        <rect id="Rectangle-8" stroke="#FFFFFF" fill="#000000" x="1.5" y="1.5" width="447" height="284" rx="8"></rect>
+                        <path d="M244.266874,149.366563 L203.683282,169.658359 C200.719411,171.140295 197.115372,169.938949 195.633437,166.975078 C195.216871,166.141945 195,165.223267 195,164.291796 L195,123.708204 C195,120.394495 197.686292,117.708204 201,117.708204 C201.931471,117.708204 202.850149,117.925074 203.683282,118.341641 L244.266874,138.633437 C247.230745,140.115372 248.432091,143.719411 246.950155,146.683282 C246.369573,147.844446 245.428038,148.785981 244.266874,149.366563 Z" id="Triangle" stroke="#F4D0E2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
