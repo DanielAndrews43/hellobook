@@ -251,9 +251,11 @@ a:link, a:visited, a:hover, a:active {
 	#third-content {
 		justify-content: space-between;
 		width: 100%;
+		margin-bottom: 60px;
 
 		.left {
-			width: 45%;
+			width: 50%;
+			margin-right: 30px;
 
 			h2 {
 				font-size: 24px;
@@ -269,12 +271,15 @@ a:link, a:visited, a:hover, a:active {
 			span {
 				font-size: 60px;
 				color: $color-darkest-pink;
+				margin-left: 10px;
+				margin-right: 10px; 
+				padding-bottom: 10px;
 			}
 
 			#about_container {
 				background-color: $color-dark-pink;
 				width: 100%;
-				padding: 30px;
+				padding: 30px 30px 0px 30px;
 				font-size: 14px;
 				line-height: 24px;
 				border-radius: 7px;
@@ -282,7 +287,6 @@ a:link, a:visited, a:hover, a:active {
 				letter-spacing: 0;
 				text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 				height: 100%;
-				margin-bottom: 60px;
 				justify-content: space-between;
 
 				.line {
@@ -300,12 +304,14 @@ a:link, a:visited, a:hover, a:active {
 		}
 
 		.right {
-			width: 45%;
+			width: 50%;
+			margin-left: 30px;
 
 			.right-content {
 				width: 100%;
 				padding-top: 15px;
 				margin-left: 7.5%;
+				justify-content: space-between;
 
 				.bullets_title {
 					font-size: 24px;
@@ -318,12 +324,12 @@ a:link, a:visited, a:hover, a:active {
 				}
 
 				.bullets {
-					margin-bottom: 60px;
 					font-size: 14px;
 					color: rgba(255,255,255,0.80);
 					letter-spacing: 0;
 					line-height: 21px;
 					text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+					width: 100%;
 				}
 
 				.bullet {
@@ -338,12 +344,12 @@ a:link, a:visited, a:hover, a:active {
 
 				.buy_container {
 					background-color: $color-light-gray;
+					align-self: center;
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					margin-bottom: 60px;
 					min-height: 185px;
-					width: 100%;
+					width: 75%;
 					border-radius: 8px;
 					box-shadow: 0 10px 20px 0 rgba(0,0,0,0.20);
 
@@ -593,6 +599,10 @@ a:link, a:visited, a:hover, a:active {
 				padding-left: 0px;
 			}
 		}
+	}
+
+	#third #third-content .right .right-content .buy_container {
+		width: 100%;
 	}
 }
 
