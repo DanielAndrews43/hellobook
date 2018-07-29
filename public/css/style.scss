@@ -647,17 +647,45 @@ a:link, a:visited, a:hover, a:active {
 
 	#third {
 		#third-content {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 
 			.left {
+				width: 90%;
+				margin-right: 0px;
+				justify-content: center;
+
 				h2 {
-					height: 62px;
-					min-width: 258px;
-					font-size: 24px;
+					font-size: 32px;
+				}
 
-				}	
+				#about_container {
+					width: 90%;
+				}
+			}
 
-				span {
-					letter-spacing: 2.4px;
+			.right {
+				margin-left: 0px;
+				width: 100%;
+
+				.right-content {
+					width: 90%;
+					.bullets {
+						margin-bottom: 20px;
+						.bullets_title {
+							margin-top: 20px;
+							margin-bottom: 20px;
+						}
+
+						.bullet {
+							flex-direction: row;
+						}
+					}
+					.buy_container {
+						width: 60%;
+						margin-right: 30px;
+					}
 				}
 			}
 		}
@@ -667,7 +695,7 @@ a:link, a:visited, a:hover, a:active {
 		height: 200px;
 		#fourth-content {
 			flex-direction: column;
-			justify-content: space-evenly;
+			justify-content: space-evenly
 		}
 	}
 
