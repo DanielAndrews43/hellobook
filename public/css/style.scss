@@ -152,7 +152,6 @@ a:link, a:visited, a:hover, a:active {
 
 #first {
 	background-color: $color-light-gray;
-	max-height: 580px;
 	min-height: 580px;
 	padding-top: 125px;
 	display: flex;
@@ -587,16 +586,36 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media screen and (max-width: 1024px) {
-
-	.margins {
-
-	}
-
 	#first {
+		.margins {
+			margin: 0;
+		}
 
-		.right {
-			#right-content {
-				padding-left: 0px;
+		#first-content {
+			flex-direction: column;
+			align-items: center;
+
+			.left {
+				height: 410px;
+				width: 100%;
+				align-items: center;
+				justify-content: center;
+	
+				#book_cover {
+					width: 400px;
+					height: 410px;
+					margin-left: 0;
+				}
+			}
+	
+			.right {
+				width: 450px;
+				padding: 20px;
+
+				#right-content {
+					padding-left: 0px;
+					align-items: center;
+				}
 			}
 		}
 	}
@@ -608,41 +627,51 @@ a:link, a:visited, a:hover, a:active {
 
 
 @media screen and (max-width: 768px) {
+	.nav {
+		.right {
+			.nav_item {
+				display: none;
+			}
+			#buy {
+				display: flex;
+			}
+		}
+	}
+
 	#first {
 		min-height: 676px;
 		padding-bottom: 25px;
 
-		.left {
-
-			#book_cover {
-				max-width: 705px;
-				max-height: 675px;
-				min-height: 225px;
-				min-width: 235px;
-				margin-bottom: 30px;
+		#first-content {
+			.left {
+				display: flex;
+				align-items: center;
+	
+				#book_cover {
+				}
 			}
+	
+			.right {
+	
+				#right-content {
+					h1 {
+						letter-spacing: 0;
+					}
+	
+					h3 {
+						font-size: 14px;
+						letter-spacing: 1.4px;
+					}
+	
+					h4 {
+						font-size: 13px;
+						letter-spacing: 0;
+						text-align: center;
+						line-height: 19px;
+					}
+				}
+			}	
 		}
-
-		.right {
-
-			#right-content {
-				h1 {
-					letter-spacing: 0;
-				}
-
-				h3 {
-					font-size: 14px;
-					letter-spacing: 1.4px;
-				}
-
-				h4 {
-					font-size: 13px;
-					letter-spacing: 0;
-					text-align: center;
-					line-height: 19px;
-				}
-			}
-		}	
 	}
 
 	#third {
@@ -695,7 +724,11 @@ a:link, a:visited, a:hover, a:active {
 		height: 200px;
 		#fourth-content {
 			flex-direction: column;
-			justify-content: space-evenly
+			justify-content: space-evenly;
+
+			#funded-on {
+				text-align: center;
+			}
 		}
 	}
 
