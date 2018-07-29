@@ -198,7 +198,6 @@ a:link, a:visited, a:hover, a:active {
 
 				a {
 					font-size: 14px;
-
 					padding-left: 30px;
 					padding-right: 30px;
 					padding-top: 13px;
@@ -652,13 +651,17 @@ a:link, a:visited, a:hover, a:active {
 			}
 	
 			.right {
+
+				width: 300px;
 	
 				#right-content {
 					h1 {
+						font-size: 48px;
 						letter-spacing: 0;
 					}
 	
-					h3 {
+					#author_names {
+						margin-top: 10px;
 						font-size: 14px;
 						letter-spacing: 1.4px;
 					}
@@ -668,6 +671,14 @@ a:link, a:visited, a:hover, a:active {
 						letter-spacing: 0;
 						text-align: center;
 						line-height: 19px;
+						margin-top: 20px;
+						margin-bottom: 20px;
+					}
+
+					.action {
+						.buy_book {
+							font-size: 12px;
+						}
 					}
 				}
 			}	
