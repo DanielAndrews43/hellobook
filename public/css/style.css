@@ -361,7 +361,8 @@ a:link, a:visited, a:hover, a:active {
     #sixth #sixth-content .circle {
       height: 180px;
       width: 180px;
-      margin-right: 30px; }
+      margin-right: 30px;
+      border-radius: 50%; }
     #sixth #sixth-content .author_name {
       margin-bottom: 15px;
       font-size: 24px;
@@ -482,13 +483,13 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center; }
     #third #third-content .left {
-      width: 90%;
+      width: 100%;
       margin-right: 0px;
       justify-content: center; }
       #third #third-content .left h2 {
         font-size: 32px; }
       #third #third-content .left #about_container {
-        width: 90%; }
+        width: calc(100% - 60px); }
     #third #third-content .right {
       margin-left: 0px;
       width: 100%; }
@@ -553,5 +554,10 @@ a:link, a:visited, a:hover, a:active {
       justify-content: center; }
       #footer #footer-content > div > div .social {
         display: none; } }
+@media screen and (max-width: 600px) {
+  #third #third-content .right .right-content .buy_container {
+    width: 80%; }
+    #third #third-content .right .right-content .buy_container .buy #priceText {
+      padding-right: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
