@@ -336,7 +336,7 @@ a:link, a:visited, a:hover, a:active {
 
 #sixth {
   background-color: #FFF7FB;
-  height: 512px;
+  height: 650px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -521,7 +521,7 @@ a:link, a:visited, a:hover, a:active {
     text-align: center; }
 
   #sixth {
-    height: 750px; }
+    height: 800px; }
     #sixth #sixth-content {
       max-width: 450px; }
       #sixth #sixth-content > div #daniel-row {
