@@ -382,7 +382,10 @@ a:link, a:visited, a:hover, a:active {
 							top: 0;
 							letter-spacing: 1.56px;
 							box-shadow: 0 2px 4px 0 rgba(220,81,153,0.35);
+						}
 
+						a, a:visited, a:hover, a:active {
+							color: white;
 						}
 
 						.price {
@@ -704,6 +707,10 @@ a:link, a:visited, a:hover, a:active {
 				#about_container {
 					width: calc(100% - 60px);
 				}
+
+				iframe {
+					max-width: 100%;
+				}
 			}
 
 			.right {
@@ -798,19 +805,16 @@ a:link, a:visited, a:hover, a:active {
 			align-items: center;
 			justify-content: space-evenly;
 
-			#fb {
-				margin-left: 0;
-			}
-
 			>div {
 				flex-direction: row;
 				text-align: center;
 				align-items: center;
 				justify-content: center;
+			}
+
+			#social-buttons-footer {
 				>div {
-					.social {
-						display: none;
-					}
+					padding: 10px;
 				}
 			}
 		}
@@ -821,15 +825,10 @@ a:link, a:visited, a:hover, a:active {
 	#third #third-content .right .right-content .buy_container {
 		width: 80%;
 
-		.buy #priceText {
-			padding-right: 25px;
+		.buy {
+			#priceText {
+				padding-right: 25px;
+			}
 		}
 	}
 }
-
-
-
-
-
-
-

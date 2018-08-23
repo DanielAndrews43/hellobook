@@ -284,6 +284,8 @@ a:link, a:visited, a:hover, a:active {
               top: 0;
               letter-spacing: 1.56px;
               box-shadow: 0 2px 4px 0 rgba(220, 81, 153, 0.35); }
+            #third #third-content .right .right-content .buy_container .buy a, #third #third-content .right .right-content .buy_container .buy a:visited, #third #third-content .right .right-content .buy_container .buy a:hover, #third #third-content .right .right-content .buy_container .buy a:active {
+              color: white; }
             #third #third-content .right .right-content .buy_container .buy .price {
               color: #463A40;
               position: absolute;
@@ -490,6 +492,8 @@ a:link, a:visited, a:hover, a:active {
         font-size: 32px; }
       #third #third-content .left #about_container {
         width: calc(100% - 60px); }
+      #third #third-content .left iframe {
+        max-width: 100%; }
     #third #third-content .right {
       margin-left: 0px;
       width: 100%; }
@@ -545,15 +549,13 @@ a:link, a:visited, a:hover, a:active {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly; }
-    #footer #footer-content #fb {
-      margin-left: 0; }
     #footer #footer-content > div {
       flex-direction: row;
       text-align: center;
       align-items: center;
       justify-content: center; }
-      #footer #footer-content > div > div .social {
-        display: none; } }
+    #footer #footer-content #social-buttons-footer > div {
+      padding: 10px; } }
 @media screen and (max-width: 600px) {
   #third #third-content .right .right-content .buy_container {
     width: 80%; }
