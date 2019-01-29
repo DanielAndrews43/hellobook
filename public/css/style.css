@@ -75,7 +75,7 @@ a:link, a:visited, a:hover, a:active {
   right: 0;
   height: 66px;
   justify-content: space-between;
-  padding-top: 32px;
+  padding-top: 16px;
   padding-bottom: 32px; }
   .nav .left {
     font-size: 36px;
@@ -123,8 +123,8 @@ a:link, a:visited, a:hover, a:active {
       width: 60%;
       height: 100%; }
       #first #first-content .left #book_cover {
-        width: 560px;
-        height: 580px;
+        width: 580px;
+        height: 560px;
         margin-left: -30px; }
     #first #first-content .right {
       width: 40%;
@@ -418,7 +418,7 @@ a:link, a:visited, a:hover, a:active {
       min-width: 20px;
       min-height: 20px;
       max-height: 20px; }
-#footer #footer-content #email {
+    #footer #footer-content #email {
       max-width: 20px;
       min-width: 20px;
       min-height: 20px;
