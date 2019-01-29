@@ -418,6 +418,11 @@ a:link, a:visited, a:hover, a:active {
       min-width: 20px;
       min-height: 20px;
       max-height: 20px; }
+#footer #footer-content #email {
+      max-width: 20px;
+      min-width: 20px;
+      min-height: 20px;
+      max-height: 20px; }
     #footer #footer-content .social {
       font-size: 14px;
       color: rgba(255, 255, 255, 0.9);
